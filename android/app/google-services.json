@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "728539755131",
+    "project_id": "practical-bdddc",
+    "storage_bucket": "practical-bdddc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728539755131:android:e4ca19f20d7b86c30fa8de",
+        "android_client_info": {
+          "package_name": "com.practicaltest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728539755131-co9od0cljpe7rtmn7funfct7tgkofiqj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4bS1SBEooPr0kNoxCUzFeQA2-6ssrDys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "728539755131-co9od0cljpe7rtmn7funfct7tgkofiqj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
