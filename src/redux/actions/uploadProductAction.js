@@ -22,18 +22,14 @@ export const uploadProduct = (data, navigation) => {
 
       axios(config)
         .then(function (response) {
-          console.log("UPLOAD_PRODUCT_SUCCESS", response.data);
           dispatch({
             type: UPLOAD_PRODUCT_SUCCESS,
             payload: response.data,
           });
           navigation.navigate("ProductDetail");
         })
-        .catch(function (error) {
-          console.log(error);
-        });
+        .catch(function (error) {});
     } catch (error) {
-      console.log("Error", error);
       dispatch({
         type: UPLOAD_PRODUCT_FAILED,
         payload: {

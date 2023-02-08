@@ -22,6 +22,7 @@ export default styles = StyleSheet.create({
     borderRadius: 10,
     width: "90%",
     marginTop: 10,
+    color: "#000000",
   },
   otpText: {
     marginTop: 15,

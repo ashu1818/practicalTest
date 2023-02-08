@@ -27,6 +27,7 @@ const OTPVerification = (props) => {
         setIsShowOtp(true);
       } catch (err) {
         console.log("Error Firebase", err);
+        alert(err);
       }
     } else {
       alert("Please Enter Valid Mobile Number");
@@ -36,10 +37,11 @@ const OTPVerification = (props) => {
   const submitOtp = async () => {
     try {
       const response = await confirmData.confirm(otpInput);
-      console.log(response);
+
       navigation.navigate("MyTabs");
     } catch (err) {
       console.log(err);
+      alert(err);
     }
   };
   return (

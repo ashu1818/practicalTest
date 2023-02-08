@@ -12,11 +12,11 @@ const MyStack = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        {/* <Stack.Screen
+        <Stack.Screen
           name="OTPVerification"
           component={OTPVerification}
           options={{ headerShown: false }}
-        /> */}
+        />
         <Stack.Screen
           name="MyTabs"
           component={MyTabs}

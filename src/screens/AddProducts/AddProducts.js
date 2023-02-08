@@ -87,6 +87,7 @@ const AddProducts = (props) => {
         />
         <Text style={styles.otpText}>Enter Price</Text>
         <TextInput
+          keyboardType="numeric"
           style={styles.mobileInput}
           onChangeText={(value) => setPrice(value)}
           maxLength={10}

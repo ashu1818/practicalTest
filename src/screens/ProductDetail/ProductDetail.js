@@ -11,7 +11,7 @@ import { useSelector } from "react-redux";
 
 const ProductDetail = (props) => {
   const item = useSelector((state) => state.UploadProduct.product);
-  console.log("productUploaded", item);
+
   const navigation = props.navigation;
   return (
     <View>

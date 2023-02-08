@@ -19,17 +19,13 @@ export const getProducts = () => {
 
       axios(config)
         .then(function (response) {
-          console.log("Products Data", response.data);
           dispatch({
             type: GET_ALL_PRODUCTS_SUCCESS,
             payload: response.data,
           });
         })
-        .catch(function (error) {
-          console.log(error);
-        });
+        .catch(function (error) {});
     } catch (error) {
-      console.log("Error", error);
       dispatch({
         type: GET_ALL_PRODUCTS_FAILED,
         payload: {
